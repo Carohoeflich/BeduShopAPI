@@ -7,6 +7,8 @@ const {
   eliminarProducto
 } = require('../controllers/productos');
 
+// localhost:4001/v1/productos
+
 router.get('/', obtenerProductos);
 // router.get('/:cat', obtenerProductosPorCat);
 router.post('/', crearProducto);
